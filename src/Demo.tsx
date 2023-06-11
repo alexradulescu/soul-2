@@ -36,11 +36,14 @@ export const Demo = () => {
             <button>Button rocks</button>
             <button type="submit">Submit rocks</button>
           </td>
-        </tr>
+        </tr>{" "}
         <tr>
           <th>Input</th>
           <td>
-            <input type="text" placeholder="Hello?" />
+            <input type="text" placeholder="Text" />
+            <input type="password" placeholder="password" />
+            <input type="search" placeholder="Search?" />
+            <input type="email" placeholder="email" />
           </td>
         </tr>
         <tr>
@@ -63,6 +66,52 @@ export const Demo = () => {
               <summary>Some summary/details can't hurt!</summary>{" "}
               <p>Lorem ipsum dolor sit blah blah.</p>{" "}
             </details>
+          </td>
+        </tr>
+        <tr>
+          <th colSpan={2}>Work in progress</th>
+        </tr>
+        <tr>
+          <th>Input</th>
+          <td>
+            <input type="number" placeholder="123" />
+            <input type="date" placeholder="Hello?" />
+            <input type="file" placeholder="Hello?" />
+            <input type="range" placeholder="Hello?" />
+          </td>
+        </tr>
+        <tr>
+          <th>Checkbox & radio</th>
+          <td>
+            <input type="checkbox" placeholder="Hello?" />
+            <input type="radio" placeholder="Hello?" />
+          </td>
+        </tr>
+        <tr>
+          <th>Textarea</th>
+          <td>
+            <textarea placeholder="Hello?"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th>Select</th>
+          <td>
+            <select placeholder="Car?">
+              <option>Tesla</option>
+              <option>Volvo</option>
+              <option>VW</option>
+            </select>
+            <select placeholder="Car?" multiple>
+              <option>Tesla</option>
+              <option>Volvo</option>
+              <option>VW</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>kbd</th>
+          <td>
+            <kbd>CTRL + E</kbd>
           </td>
         </tr>
       </tbody>
