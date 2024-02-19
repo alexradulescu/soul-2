@@ -75,9 +75,12 @@ export const Demo = () => {
           <th>Input</th>
           <td>
             <input type="number" placeholder="123" />
-            <input type="date" placeholder="Hello?" />
-            <input type="file" placeholder="Hello?" />
-            <input type="range" placeholder="Hello?" />
+            <input type="date" placeholder="Date" />
+            <input type="file" placeholder="File" />
+            <input type="tel" placeholder="tel?" />
+            <input type="month" placeholder="month?" />
+            <input type="week" placeholder="week?" />
+            <input type="datetime-local" placeholder="datetime-local?" />
           </td>
         </tr>
         <tr>
@@ -112,6 +115,14 @@ export const Demo = () => {
           <th>kbd</th>
           <td>
             <kbd>CTRL + E</kbd>
+          </td>
+        </tr>
+        <tr>
+          <th>Progress</th>
+          <td>
+            <progress max={100} value={50} />
+            <br />
+            <progress max={100} />
           </td>
         </tr>
       </tbody>
