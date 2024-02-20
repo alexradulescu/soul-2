@@ -154,7 +154,7 @@
 :where(button, input, select, textarea, optgroup) {
   font: inherit;
   transition: color 0.25s, background-color 0.25s, transform 0.25s,
-    border-color 0.25s, outline 0.25s;
+    border-color 0.25s, outline-color 0.25s;
 
   &:disabled {
     cursor: not-allowed;
@@ -163,14 +163,13 @@
 }
 
 :where(a, button, input, select, textarea) {
-  outline-offset: 0px;
+  outline-offset: 2px;
   outline-style: solid;
   outline-width: 2px;
   outline-color: transparent;
-  transition: all 0.25s;
+  transition: outline-color 0.25s;
 
   &:focus-visible {
-    outline-offset: 2px;
     outline-color: var(--outline);
   }
 }
