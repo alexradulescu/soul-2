@@ -34,6 +34,7 @@ export const Demo = () => {
           <th>Button</th>
           <td>
             <button>Button rocks</button>
+            <br />
             <button type="submit">Submit rocks</button>
           </td>
         </tr>{" "}
@@ -41,8 +42,11 @@ export const Demo = () => {
           <th>Input</th>
           <td>
             <input type="text" placeholder="Text" />
+            <br />
             <input type="password" placeholder="password" />
+            <br />
             <input type="search" placeholder="Search?" />
+            <br />
             <input type="email" placeholder="email" />
           </td>
         </tr>
@@ -75,11 +79,17 @@ export const Demo = () => {
           <th>Input</th>
           <td>
             <input type="number" placeholder="123" />
+            <br />
             <input type="date" placeholder="Date" />
+            <br />
             <input type="file" placeholder="File" />
+            <br />
             <input type="tel" placeholder="tel?" />
+            <br />
             <input type="month" placeholder="month?" />
+            <br />
             <input type="week" placeholder="week?" />
+            <br />
             <input type="datetime-local" placeholder="datetime-local?" />
           </td>
         </tr>
@@ -87,6 +97,7 @@ export const Demo = () => {
           <th>Checkbox & radio</th>
           <td>
             <input type="checkbox" placeholder="Hello?" />
+            <br />
             <input type="radio" placeholder="Hello?" />
           </td>
         </tr>
@@ -104,6 +115,7 @@ export const Demo = () => {
               <option>Volvo</option>
               <option>VW</option>
             </select>
+            <br />
             <select placeholder="Car?" multiple>
               <option>Tesla</option>
               <option>Volvo</option>
