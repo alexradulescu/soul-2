@@ -408,11 +408,10 @@ a {
   summary {
     display: list-item;
     background-color: var(--background);
-    padding: 8px;
+    padding: 8px 8px 0 8px;
     margin: -8px -8px 0;
-    cursor: pointer;
     outline: none;
-    cursor: pointer;
+    font-weight: 500;
   }
 
   & > :last-child {
