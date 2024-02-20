@@ -80,7 +80,7 @@ export const Demo = () => {
           <td>
             <input type="number" placeholder="123" />
             <br />
-            <input type="number" placeholder="123" pattern="[0-9]*" inputMode="numeric" />
+            <input type="number" placeholder="123" pattern="[0-9+-]*" inputMode="numeric" />
             <br />
             <input type="date" placeholder="Date" />
             <br />
