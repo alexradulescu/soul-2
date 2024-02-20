@@ -82,8 +82,6 @@ export const Demo = () => {
             <br />
             <input type="date" placeholder="Date" />
             <br />
-            <input type="file" placeholder="File" />
-            <br />
             <input type="tel" placeholder="tel?" />
             <br />
             <input type="month" placeholder="month?" />
