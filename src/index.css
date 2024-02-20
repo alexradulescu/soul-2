@@ -153,15 +153,12 @@
 
 :where(button, input, select, textarea, optgroup) {
   font: inherit;
-  transition: all 0.25s;
+  transition: color 0.25s, background-color 0.25s, transform 0.25s,
+    border-color 0.25s, outline 0.25s;
 
   &:disabled {
     cursor: not-allowed;
     opacity: 0.9;
-  }
-
-  &:active {
-    transform: scale(0.95);
   }
 }
 
@@ -335,6 +332,10 @@ a {
       background-color: var(--button-border-primary-active);
       color: var(--text-inverted);
     }
+  }
+
+  &:active {
+    transform: scale(0.95);
   }
 }
 
