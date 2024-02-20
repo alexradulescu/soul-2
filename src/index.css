@@ -167,7 +167,6 @@
   outline-style: solid;
   outline-width: 2px;
   outline-color: transparent;
-  transition: outline-color 0.25s;
 
   &:focus-visible {
     outline-color: var(--outline);
