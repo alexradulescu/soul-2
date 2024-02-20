@@ -259,7 +259,7 @@ td {
   border: 1px solid var(--border-neutral);
 }
 th {
-  font-weight: 600;
+  font-weight: 500;
   background-color: var(--bg-midstage);
 }
 
@@ -362,6 +362,7 @@ a {
   -moz-appearance: none;
   appearance: none;
   height: 40px;
+  min-width: 200px;
   padding: 0 14px;
   margin-bottom: 12px;
   border-radius: 4px;
