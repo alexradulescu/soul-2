@@ -37,11 +37,6 @@ export const App = () => {
       <section>
         <h2>Components overview</h2>
         <Demo />
-        <div className="card">
-          <div className="card">
-            <div className="card">Aloha</div>
-          </div>
-        </div>
       </section>
       <h2>Examples</h2>
       <article>
