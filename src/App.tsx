@@ -1,8 +1,10 @@
 import { Demo } from "./Demo";
+import { TaxCalculator } from "./Tax";
 
 export const App = () => {
   return (
     <main>
+      <TaxCalculator />
       <h1>SOUL css</h1>
       <p>
         A simple class-less css starter with lots of SOUL to make the basic web
